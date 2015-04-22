@@ -39,7 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OpenFlow\OpenFlow.cs" />
+    <Compile Include="OpenFlow\OpenFlowDatapaths.cs" />
     <Compile Include="OpenFlow\OpenFlowDefinitions.cs" />
+    <Compile Include="OpenFlow\OpenFlowManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
